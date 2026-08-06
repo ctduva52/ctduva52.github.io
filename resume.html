@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charlie Duva | Resume</title>
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <!--JQuery-->
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+  <!--Roboto Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/projects.css" />
+
+  <script src="js/global.js"></script>
+</head>
+
+<body>
+  <nav id="navbar"></nav>
+  <header id="header"></header>
+
+  <div class="padded">
+    <section class="section">
+      <div class="section-header">
+        <h1>Resume</h1>
+        <p class="section-description">Your resume can be placed in the project root as <strong>resume.pdf</strong>. Visitors can view it in the browser or download it directly.</p>
+      </div>
+
+      <div class="card">
+        <p>Replace the placeholder file with your own resume named <code>resume.pdf</code>.</p>
+        <p class="mb-3">
+          If you don't have a PDF yet, add one to the site root and update the filename here as needed.
+        </p>
+        <a class="btn btn-primary" href="resume.pdf" download>Download Resume</a>
+      </div>
+
+      <div class="mt-4">
+        <object class="resume-embed" data="resume.pdf" type="application/pdf">
+          <p>Your browser does not support in-line PDF viewing. You can <a href="resume.pdf">download the resume here</a>.</p>
+        </object>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
