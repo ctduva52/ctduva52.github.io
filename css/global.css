@@ -162,9 +162,13 @@ body {
 	margin: 0 2px 0 2px;
 }
 
+.resume-card {
+	margin-bottom: 1rem;
+}
+
 .resume-embed {
 	width: 100%;
-	height: 80vh;
+	min-height: 80vh;
 	border: 1px solid #333;
 	border-radius: 12px;
 	background-color: #111;
